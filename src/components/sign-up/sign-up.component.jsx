@@ -59,7 +59,6 @@ class SignUp extends Component {
 					<FormInput
 						type='text'
 						name='displayName'
-						id='displayName'
 						value={displayName}
 						handleChange={this.handleChange}
 						label='Name'
@@ -69,7 +68,6 @@ class SignUp extends Component {
 					<FormInput
 						type='email'
 						name='email'
-						id='email'
 						value={email}
 						handleChange={this.handleChange}
 						label='Email'
@@ -79,7 +77,6 @@ class SignUp extends Component {
 					<FormInput
 						type='password'
 						name='password'
-						id='password'
 						value={password}
 						handleChange={this.handleChange}
 						label='Password'
@@ -89,7 +86,6 @@ class SignUp extends Component {
 					<FormInput
 						type='password'
 						name='confirmPassword'
-						id='confirmPassword'
 						value={confirmPassword}
 						handleChange={this.handleChange}
 						label='Confirm Password'
