@@ -1,7 +1,7 @@
-const express = require('express'),
-	cors = require('cors'),
-	bodyParser = require('body-parser'),
-	path = require('path');
+const express = require('express');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const path = require('path');
 
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
 
